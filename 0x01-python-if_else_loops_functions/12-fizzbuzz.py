@@ -5,10 +5,10 @@ def fizzbuzz():
             if i == 99:
                 print("FizzBuzz")
             else:
-                print("FizzBuzz", end=' ')
+                print("FizzBuzz", end='')
         elif i % 3 == 0:
-            print("Fizz", end=' ')
+            print("Fizz", end='')
         elif i % 5 == 0:
-            print("Buzz", end=' ')
+            print("Buzz", end='')
         else:
             print("{:d}".format(i))
