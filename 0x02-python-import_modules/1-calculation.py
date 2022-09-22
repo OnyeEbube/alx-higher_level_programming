@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 if __import__ == "__name__":
-    from calculator_1 import add, sub, mul, div
+    import calculator_1
     a = 10
     b = 5
     print("{:d} + {:d} = {:d}".format(a, b, add(a, b)))
