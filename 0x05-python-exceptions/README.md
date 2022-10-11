@@ -1,0 +1,1 @@
+It is really amazing and wonderful to learn that you can customize your own error messages in python and even force them to be executed. I learnt about errors and exceptions in python3 in alx today and i am going to be solving some exercises today in this module
