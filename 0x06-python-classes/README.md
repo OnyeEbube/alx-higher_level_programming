@@ -1,0 +1,1 @@
+Classes and objects are a vital part of object oriented programming. Python is an OOP programming language and this means you can create a class that has custom attributes and instanced of a particular object or objects. There are a lot of syntaxes in python so, in this module i am going to be solving the exercises associated with this learning directory
