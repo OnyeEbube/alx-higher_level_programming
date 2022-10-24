@@ -40,20 +40,20 @@ class Rectangle:
 
     def area(self):
         """method that returns the area of the rectangle"""
-        return self.width * self.height
+        return self.__width * self.__height
 
     def perimeter(self):
         """method that returns the perimeter of rectangle"""
-        if self.width == 0 or self.height == 0:
+        if self.__width == 0 or self.__height == 0:
             return 0
-        return (2 * self.width) + (2 * self.height)
+        return (2 * self.__width) + (2 * self.__height)
 
     def __str__(self):
         """method that returns the rectangle #"""
         rectangle = ""
-        if self.width == 0 or self.height == 0:
+        if self.__width == 0 or self.__height == 0:
             return rectangle
-        for i in range(self.height):
-            rectangle += ("#" * self.width) + "\n"
+        for i in range(self.__height):
+            rectangle += ("#" * self.__width) + "\n"
 
         return rectangle[:-1}
