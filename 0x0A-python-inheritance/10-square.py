@@ -1,4 +1,6 @@
 #!/usr/bin/python3
+
+"""Creating an inherited class."""
 Rectangle = __import__('9-rectangle').Rectangle
 
 

@@ -1,4 +1,8 @@
 #!/usr/bin/python3
+
+"""Crating a class. """
+
+
 class MyInt(int):
     """ Class that inherits from class int"""
 
