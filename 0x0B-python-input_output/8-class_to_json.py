@@ -8,6 +8,6 @@ def class_to_json(obj):
     structure for JSON serialization of an object.
     """
     res = {}
-    if hasatrr(obj, "__dict__"):
+    if hasattr(obj, "__dict__"):
         res = obj.__dict__.copy()
     return res
