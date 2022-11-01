@@ -8,4 +8,4 @@ def append_write(filename="", text=""):
     returns the number of characters added
     """
     with open(filename, 'a', encoding="utf-8") as x:
-        return x.append(text)
+        return x.write(text)
