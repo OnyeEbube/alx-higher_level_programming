@@ -1,8 +1,9 @@
 #!/usr/bin/python3
 
 """ Module that adds all arguments to a Python listg, and then
-save them to a file.
-"""
+save them to a file."""
+
+
 import sys
 import os.path
 
