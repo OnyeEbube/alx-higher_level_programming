@@ -11,9 +11,9 @@ class Rectangle {
   }
 
   print() {
-    for (let i = 0; i < height; i++) {
+    for (let i = 0; i < this.height; i++) {
       let myVar = '';
-      for (let j = 0; j < width; j++) {
+      for (let j = 0; j < this.width; j++) {
         myVar = myVar + 'X';
       }
       console.log(myVar);
