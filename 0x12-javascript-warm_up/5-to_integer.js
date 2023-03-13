@@ -4,8 +4,8 @@
  * If the argument can’t be converted to an integer, print “Not a number”
  */
 const myVar = process.argv;
-if (!myVar[2] || !parseInt(myVar[2])) {
-	console.log('Not a number');
+if ((!myVar[2]) || (!parseInt(myVar[2]))) {
+  console.log('Not a number');
 } else {
-	console.log('My number: ' + parseInt(myVar[2]));
+  console.log('My number: ' + parseInt(myVar[2]));
 }
