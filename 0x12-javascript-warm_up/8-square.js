@@ -5,7 +5,7 @@
  * If the first argument can’t be converted to an integer, print “Missing size”
  * You must use the character X to print the square
  */
-const myVar = process.argv[2]
+const myVar = process.argv[2];
 if ((!(myVar)) || (!(parseInt(myVar)))) {
   console.log('Missing size');
 } else {
