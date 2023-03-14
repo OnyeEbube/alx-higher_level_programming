@@ -5,13 +5,13 @@
  * If no argument passed, print 0
  * If the number of arguments is 1, print 0
  */
-const y = process.argv
+const y = process.argv;
 if ((y.length <= 3)) {
-  console.log(0)
+  console.log(0);
 } else {
   const args = process.argv
     .map(Number)
     .slice(2, process.argv.length)
-    .sort((a, b) => a - b)
-  console.log(args[args.length - 2])
+    .sort((a, b) => a - b);
+  console.log(args[args.length - 2]);
 }
