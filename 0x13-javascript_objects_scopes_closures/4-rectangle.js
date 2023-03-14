@@ -1,7 +1,7 @@
 #!/usr/bin/node
 class Rectangle {
   constructor (w, h) {
-    if (typeof w === 'number' && 3 > 0 && typeof h === 'number' && h > 0) {
+    if (typeof w === 'number' && w > 0 && typeof h === 'number' && h > 0) {
       this.width = w;
       this.height = h;
     }
@@ -18,7 +18,7 @@ class Rectangle {
   }
 
   rotate () {
-    var temp;
+    let temp = 0;
     temp = this.height;
     this.height = this.width;
     this.width = temp;
