@@ -5,8 +5,8 @@
  * The second line: “Python is cool”
  * The third line: “JavaScript is amazing”
  */
-const myVar = ['C is fun', 'Python is cool', 'JavaScript is amazing'];
-let i;
+const myVar = ['C is fun', 'Python is cool', 'JavaScript is amazing']
+let i
 for (i = 0; i < 3; i++) {
-  console.log(myVar[i]);
+  console.log(myVar[i])
 }

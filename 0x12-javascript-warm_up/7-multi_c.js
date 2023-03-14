@@ -4,12 +4,12 @@
  * Where x is the first argument of the script
  * If the first argument can’t be converted to an integer, print “Missing number of occurrences”
  */
-const myVar = parseInt(process.argv[2]);
+const myVar = parseInt(process.argv[2])
 if (!myVar) {
-  console.log('Missing number of occurrences');
+  console.log('Missing number of occurrences')
 } else {
-  let i;
+  let i
   for (i = 0; i < myVar; i++) {
-    console.log('C is fun');
+    console.log('C is fun')
   }
 }
