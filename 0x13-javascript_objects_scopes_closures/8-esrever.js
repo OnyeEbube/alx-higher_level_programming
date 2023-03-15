@@ -1,4 +1,5 @@
 #!/usr/bin/node
+
 exports.esrever = function (list) {
   const newList = [];
   let y = list.length - 1;
@@ -6,5 +7,6 @@ exports.esrever = function (list) {
     newList.push(list[y]);
     y--;
   }
+
   return (newList);
-}
+};
