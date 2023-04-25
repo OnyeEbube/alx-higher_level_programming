@@ -7,14 +7,14 @@ let count = 0;
 
 request.get(starWars, (error, response, body) => {
   if (error) {
-    console,log(error);
+    console.log(error);
   } else {
     const data = JSON.parse(body);
     data.results.forEach((film) => {
       film.characters.forEach((character) => {
         if (character.includes(basicId)) {
-	  count += 1;
-	}
+          count += 1;
+        }
       });
     });
     console.log(count);
